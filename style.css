@@ -19,10 +19,17 @@ p{
 }
 
 img{
-    width: 22.50%;
+    width: 22.5%;
     margin: 1.25%;
     border-radius: 20%;
     float: left;
+}
+
+.grid{
+    margin: .5 auto;
+    width: min(200%, 7rem);
+    display: grid;
+    grid-template-columns: 100% 100% 100% 100%;
 }
 
 .tilt-box-wrap{
